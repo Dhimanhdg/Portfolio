@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+     @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+     @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Caveat&display=swap');
+    body{
+        background-color: rgb(36, 36, 36);
+    }
+   
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #e4bb68;
+    font-size: x-large;
+}
+a:hover {
+    color: #ff00d4;
+}
+.site-header {
+    border-bottom: 1px solid transparent;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+.nav{
+    font-size: large;
+}
+#logo{
+    color: blueviolet;
+}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+body {    
+font-family: JetBrains Mono, monospace;
+color: #e4bb68;
+}
+
+.string {
+  display: flex;
+  justify-content: center;
+}
+#name{
+    text-align: center;
+}
+.info{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    }
+    #aboutme{
+        text-align: center;
+        font-size: 52px;
+    }
+    #info{
+        text-align: center;
+        width: 900px;
+    }
+    #Text{
+        color: #000;
+    }
+    .error{
+        margin-top: 100px;
+        text-align:center;
+        font-size: xx-large;
+    }
+   #img{
+    width: 100px;
+    height: 100px;
+   }
+   .ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+
+.ag-courses_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  padding: 50px 0;
+}
+.ag-courses_item {
+  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  flex-basis: calc(33.33333% - 30px);
+
+  margin: 0 15px 30px;
+
+  overflow: hidden;
+
+  border-radius: 28px;
+}
+.ag-courses-item_link {
+  display: block;
+  padding: 30px 20px;
+  background-color: #121212;
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+  text-decoration: none;
+  color: #FFF;
+}
+.ag-courses-item_link:hover .ag-courses-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.ag-courses-item_title {
+  min-height: 87px;
+  margin: 0 0 25px;
+
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date-box {
+  font-size: 18px;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date {
+  font-weight: bold;
+  color: #f9b234;
+
+  -webkit-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease
+}
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #f9b234;
+
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+
+  border-radius: 50%;
+
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+  background-color: #3ecd5e;
+}
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+  background-color: #e44002;
+}
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+  background-color: #952aff;
+}
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+  background-color: #cd3e94;
+}
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+  background-color: #4c49ea;
+}
+
+
+
+@media only screen and (max-width: 979px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  .ag-courses-item_title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+@media only screen and (max-width: 639px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
+
+    font-size: 24px;
+  }
+  .ag-courses-item_link {
+    padding: 22px 40px;
+  }
+  .ag-courses-item_date-box {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+</style>
+<body>
+    <header class="site-header">
+        <div class="site-identity">
+            <h1><a href="#">//Himanshu<br id="logo">Web_Dev</id></a></h1>
+        </div>
+        <nav class="site-navigation">
+            <ul class="nav">
+                <li><a href="#">_Home</a></li>
+                <li><a href="#">_About</a></li>
+                <li><a href="#">_Blog</a></li>
+                <li><a href="#">_Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 id="name">//Hi, I'm Himanshu</h2>
+    <div class="string">
+    <h1>System<span style="color:white;">.<span style="color:#e06c75;">out</span>.</span><span style="color:#61afef;">println</span><span style="color:#e4bb68;">("</span><span style="color:#ff00d4;">Hello World!</span><span style="color:#e4bb68;">")</span></h1>
+</div><br><br>
+<h1 id="aboutme"><span style="color:whitesmoke;">{</span><span style="color:#e4bb68;">"About Me"</span><span style="color:whitesmoke;">}</span></h1>
+<div class="info">
+<h3 id="info"><span style="color:#e4bb68;">//</span><span style="color:whitesmoke;">My name is <span style="color:#e06c75;">Himanshu Dhiman</span>. I live in <span style="color:#61afef;">India</span> and I love to </span>
+    <span style="color:blueviolet;">Design</span><span style="color:whitesmoke;">, </span><span style="color:cyan;">Build</span> and
+    <span style="color:yellowgreen;">Recreate </span>Things</h3>
+</div>
+<div class="error"> 
+    <img id="img" src="coding-language.png">
+    <img id="img" src="coding.png">
+    <img id="img" src="pets.png">
+    <img id="img" src="person.png">
+</div>
+
+<div class="ag-format-container">
+    <div class="ag-courses_box">
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title"><br>
+            //Graphic Design;&#160;
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Experience:
+            <span class="ag-courses-item_date">
+              2+ Year
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title"><br>
+            //Web-Design;
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Experience:
+            <span class="ag-courses-item_date">
+              2+ Year
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="https://www.youtube.com/@XboyYT650" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title"><br>
+            //YouTuber;
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Sub:
+            <span class="ag-courses-item_date">
+              Not even 100
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="https://www.twitch.tv/x_boyyt" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title"><br>
+            //Twitch;
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Followers:
+            <span class="ag-courses-item_date">
+              10+ (XD)
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title"><br>
+            //Instagram;
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Followers:
+            <span class="ag-courses-item_date">
+            private
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            <br>
+            //Video &&#160;Photo&#160;editor;
+          </div>
+          <div class="ag-courses-item_date-box">
+            Experience:
+            <span class="ag-courses-item_date">
+            1+ Year
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg">
+          </div>
+          <div class="ag-courses-item_title"><br>
+            //Freelancer;
+          </div>
+          <div class="ag-courses-item_date-box">
+            Experience:
+            <span class="ag-courses-item_date">
+            1+ Year
+            </span>
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title"><br>
+            //Contact;
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Email:
+            <span class="ag-courses-item_date">
+              Dhimanhimanshu650@gmail.com
+            </span>
+          </div>
+        </a>
+      </div>
+  
+    </div>
+  </div>
+    
+
+
+</body>
+</html>
